@@ -1,0 +1,9 @@
+G:\Documents\VC\BitX ticket\BitX ticket\bin\Debug\BitX ticket.exe
+G:\Documents\VC\BitX ticket\BitX ticket\bin\Debug\BitX ticket.pdb
+G:\Documents\VC\BitX ticket\BitX ticket\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Documents\VC\BitX ticket\BitX ticket\obj\x86\Debug\BitX_ticket.Form1.resources
+G:\Documents\VC\BitX ticket\BitX ticket\obj\x86\Debug\BitX_ticket.Properties.Resources.resources
+G:\Documents\VC\BitX ticket\BitX ticket\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Documents\VC\BitX ticket\BitX ticket\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Documents\VC\BitX ticket\BitX ticket\obj\x86\Debug\BitX ticket.exe
+G:\Documents\VC\BitX ticket\BitX ticket\obj\x86\Debug\BitX ticket.pdb
