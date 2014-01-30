@@ -1,0 +1,31 @@
+#!/usr/local/bin/macruby
+framework 'calendarstore'
+
+    # This required MacRuby to be installed.
+# A package installer for 10.6+ is available at http://www.macruby.org/
+
+    # Period is the number of days (including today) to include in the list.
+# The default is three days.
+period = (3 * 3600 * 24)
+range = Time.local(Time.now.year, Time.now.mon, Time.now.day)..(Time.local(Time.now.year, Time.now.mon, Time.now.day) + period)
+
+    predicate = CalCalendarStore.eventPredicateWithStartDate(NSDate.dateWithString(range.begin.to_s), endDate:NSDate.dateWithString(range.end.to_s), calendars:CalCalendarStore.defaultCalendarStore.calendars)
+day_cache = nil
+
+    # All formatting done here is intended to be RIGHT JUSTIFIED.
+# Inside the block everything except #timeIntervalSince1970 is normal ruby,
+# so it should be pretty easy for many people to change around.
+CalCalendarStore.defaultCalendarStore.eventsWithPredicate(predicate).each do |event|
+  started_at = Time.at(event.startDate.timeIntervalSince1970)
+
+      print "n" + started_at.strftime("%A %B %d").upcase + "n" if started_at.day != day_cache
+
+      print "→" if started_at < Time.now
+  print "⚠ " if (Time.now - started_at < (3600 * 5)) && (Time.now - started_at > 0)
+  print event.title
+  print " (#{event.location})" if event.location
+  print (event.isAllDay ? "        ∞" : started_at.strftime(" %R")) 
+
+      print "n"
+  day_cache = started_at.day
+end

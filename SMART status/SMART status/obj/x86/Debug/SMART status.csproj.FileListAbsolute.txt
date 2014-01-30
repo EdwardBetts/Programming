@@ -1,0 +1,10 @@
+\\Vboxsvr\osx\Documents\Scripts\SMART status\SMART status\bin\Debug\SMART status.exe.manifest
+\\Vboxsvr\osx\Documents\Scripts\SMART status\SMART status\bin\Debug\SMART status.application
+\\Vboxsvr\osx\Documents\Scripts\SMART status\SMART status\bin\Debug\SMART status.exe
+\\Vboxsvr\osx\Documents\Scripts\SMART status\SMART status\bin\Debug\SMART status.pdb
+\\Vboxsvr\osx\Documents\Scripts\SMART status\SMART status\obj\x86\Debug\ResolveAssemblyReference.cache
+\\Vboxsvr\osx\Documents\Scripts\SMART status\SMART status\obj\x86\Debug\SMART status.exe.manifest
+\\Vboxsvr\osx\Documents\Scripts\SMART status\SMART status\obj\x86\Debug\SMART status.application
+\\Vboxsvr\osx\Documents\Scripts\SMART status\SMART status\obj\x86\Debug\SMART status.exe
+\\Vboxsvr\osx\Documents\Scripts\SMART status\SMART status\obj\x86\Debug\SMART status.pdb
+\\Vboxsvr\osx\Documents\Scripts\SMART status\SMART status\obj\x86\Debug\SMART status.TrustInfo.xml
