@@ -24,7 +24,3 @@ print '' + str(btc) + 'BTC\t:\t' + str(btc * last_trade) + ' ZAR'
 print 
 
 print '-------------------------'
-
-# 3a2cc3492d234e773aa7db5f18819d1a0acb93de1e90cca4abd4473ab1c2d5cf
-# 5KWonvLgAXNu3mjrTFEz1rdk3D8MadRtMZThhYcN3u8uNMYkzWv
-# 5K32Q7MEj24jRkreorpMkfZuyGNQunvSRQN6MMPLekWAX5RxA6u
