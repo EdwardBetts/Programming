@@ -4,12 +4,12 @@
 import pxssh
 import sys
 
-save_path = '/Users/byroncoetsee/Desktop'
+save_path = os.path.dirname(os.path.realpath(__file__))
 output = open(save_path+'/Server_Space.txt', 'w')
 output.close()
 
 hosts = ['192.168.0.15', '192.168.0.19', '192.168.0.20', '192.168.0.203', '192.168.0.205']
-QNAP_hosts = ['192.168.0.6', '192.168.0.7', '192.168.0.9', '192.168.0.11', '192.168.0.12', '192.168.0.16', '192.168.0.17', '192.168.0.204', '192.168.0.208']
+QNAP_hosts = ['192.168.0.6', '192.168.0.7', '192.168.0.9', '192.168.0.11', '192.168.0.12', '192.168.0.16', '192.168.0.17', '192.168.0.204']
 password = 'Bl0ckC'
 
 def connect(host, user, password, command):
@@ -28,7 +28,7 @@ def connect(host, user, password, command):
 		print s.before
 
 		output = open(save_path+'/Server_Space.txt', 'a')
-		output.write(str(s.before))
+		output.write(host + '\n' + str(s.before))
 		output.close()
 
 		s.sendline(command)
@@ -53,7 +53,7 @@ def connect(host, user, password, command):
 if __name__ == '__main__':
 
 	for item in hosts:
-		connect(item, 'root', password, 'df -H')
+		connect(item, 'root', password, 'df -h')
 
 	for item in QNAP_hosts:
 		connect(item, 'admin', password, 'df')
