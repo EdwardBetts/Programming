@@ -1,28 +1,13 @@
-# Written by Byron Coetsee
-# 17/01/2014
-# count = 0
-# for x in xrange(4,0,-1):
-# 	print  (x*' ' + '*') + count*(' *')
-# 	count = count + 1
-# 	
+routes = ['101', '102', '103', '104', '105', '106', '107', '108', '109', '113', '213', '2131', '214', '215', '216', '217', '230', '231', '232', '233', '236', '239', '251', '2001', '1001', '1003']
 
-temp = 'hellogoodbye morning'
-print temp.find('lll')
+for route in routes:
+	with open('/Users/byroncoetsee/Documents/XCode/ClosestStops/StopDetails/Routes/' + route + '/stopNames.txt') as f:
+		lines = f.readlines()
 
-print temp[:temp.find('lll')]
-
-
-	<h2 style="text-align:center">Scholarship Form</h2>
-	<form name="Scholarship" action=action="process_Scholarship.php" method="post">
-		<p>First Name: <input type="text" name="fName" /></p>
-		<p>Last Name: <input type="text" name="lName" /></p>
-		<p><input type="reset" value="clear form" />&nbsp;
-			<input type="submit" name="Submit" value="Send Form" />
-		</p>
-	</form>
-
-
-10210
-m0146910@dslmweb.co.za
-556898880
-Masiphe
+	try:
+		stops = lines[0].split(';')
+		last = len(stops) - 1
+		save = open('/Users/byroncoetsee/Documents/XCode/ClosestStops/StopDetails/Routes/' + route + '/endStopNames.txt', 'w')
+		save.write(stops[0] + ',' + stops[last])
+	except IndexError:
+		pass
