@@ -1,13 +1,9 @@
-routes = ['101', '102', '103', '104', '105', '106', '107', '108', '109', '113', '213', '2131', '214', '215', '216', '217', '230', '231', '232', '233', '236', '239', '251', '2001', '1001', '1003']
+rand_list = []
 
-for route in routes:
-	with open('/Users/byroncoetsee/Documents/XCode/ClosestStops/StopDetails/Routes/' + route + '/stopNames.txt') as f:
-		lines = f.readlines()
-
-	try:
-		stops = lines[0].split(';')
-		last = len(stops) - 1
-		save = open('/Users/byroncoetsee/Documents/XCode/ClosestStops/StopDetails/Routes/' + route + '/endStopNames.txt', 'w')
-		save.write(stops[0] + ',' + stops[last])
-	except IndexError:
-		pass
+for num in range(10):  
+    rand_list.append(num)
+    # intermediary = rand_list.append(num)
+    print intermediary%2 #this statement produces an error
+    # print("the \i number is even \n", rand_list[int])
+    # else:
+    #     print("the \i number is odd \n", rand_list[int])
