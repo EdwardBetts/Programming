@@ -1,0 +1,342 @@
+Adderley
+Airport
+Albany
+Alberto
+Alfred
+Amsterdam
+Annandale
+Aquarium
+Arthur's
+Atalantes
+Atholl
+Atlantic Beach
+Atlantic Skipper
+Atlantis
+Bakoven
+Balfour
+Bantry Bay
+Barley Bay
+Belle Ombre
+Ben Nevis
+Bengal
+Berg-en-Dal
+Berzelia
+Big Bay
+Bitten
+Blaauwberg Hospital
+Blouberg Rise
+Blouberg Sands
+Boat Bay
+Bokkombaai
+Bolt
+Bosmansdam
+Bottlebrush
+Braselton
+Breakwater
+Brevity Lane
+Brittlestar
+Briza
+Brutus
+Cabin
+Camberwell
+Camps Bay
+Canal Walk North
+Canal Walk South
+Cassel
+Century City
+Century City Rail
+Century Gate
+Charel Uys
+Charel Uys South
+Charles Duminy
+Charles Matthews
+Charles Mokoena
+Charles Piers
+Chas Booth
+Chester East
+Chester West
+Chippenham
+Church
+Circle East
+Civic Centre
+Clarens
+Clearwater
+Clifton
+Clifton 2nd
+Clifton 3rd
+Clifton 4th
+Colebrook
+Comrie
+Convention Centre
+Coronation East
+Coronation West
+Cotswold
+CPUT
+D Nyembe
+Dahlia
+Dal
+Daphne
+Darling
+Dawn
+De Mist
+De Waal Park
+Devonshire
+Dibana
+Disa
+Disandt
+District Six
+Dorchester
+Dorp
+Drill
+Dunker
+Dunoon
+Earlswood
+Echium
+Edward
+Ellerslie
+Esso
+Estuaries
+Exner
+Firmount
+First
+Fishmarket
+Fiskaal
+Foreshore
+Fresnaye
+Gallows Hill
+Garden
+Gardenia
+Gardens
+Gerwyn Owen
+Gie Central
+Gie North
+Gie South
+Glen Beach
+Gothenburg
+Government Ave
+Graaff's Pool
+Grand Canal
+Granger
+Granger Bay
+Grey
+Groote Kerk
+Grosvenor
+Hampstead
+Hamptons
+Hangberg
+Hanover Street
+Helgarda
+Hermes
+Herzlia
+High Level
+Highlands
+Hill
+Hoffe North
+Hoffe South
+Hol Bay
+Horak
+Houghton
+Hout Bay
+Human
+Humewood
+Imizamo Yethu
+Industrial
+Irwinton
+Janssens
+Johan Heyns
+John Dreyer
+John Van Niekerk
+Kehrweider
+Kei Apple
+Kemp
+Kent
+Kerrem
+Killarney
+Kleinbaai
+Kloof
+Kloof Nek
+Knysna
+Koeel Bay
+Koosani
+Kunene
+Kuyasa
+La Paloma
+Lagoon Beach
+Lancaster
+Lawley
+Le Sueur
+Leeuwen
+Lighthouse
+Lindela
+Link
+Lisboa
+Llandudno
+London
+Longmarket
+Losperds
+Louwtjie Rothman
+Lower Buitenkant
+Lower Cable Car
+Lower Camps Bay
+Lower Kloof
+Lower Long
+Lower Loop
+Lower Reservoir
+Lower Victoria
+Ludwig's Garden
+Magnet
+Maiden's Cove
+Marconi
+Marguerite
+Marina
+Marine
+MArine Circle
+Mauritius
+Melkbosch
+Melkbosstrand
+Merlot
+Michaelis
+Mid Long
+Mid Loop
+Military
+Milnerton
+Mitchells Plain
+Molteno
+Montague Gardens
+Montezuma
+Montrose
+Mouille Point
+Mount Rhodes
+Muscadel
+Nantucket
+Narcissus
+Nazareth
+Neil Hare
+Neptune
+Newlands
+Nobel Square
+Northshore
+Oakdale
+Oakland Hills
+Oceana
+Old Fire Station
+Omuramba
+Oudekraal
+Oxford Earl
+Paarden Eiland
+Parklands College
+Parklands Main
+Parklands Main North
+Parklands Main South
+Parklands Secondary
+Parkview
+Pelican
+Perlemoen
+Petrus
+Pinto
+Platteklip
+Pontiac
+Popham
+Porterfield
+Potsdam
+Prima
+Promenade
+Quebec
+Queens Beach
+Racecourse
+Radar
+Ravenscraig
+Ravensteyn
+Ravenswood
+Rayden
+Raymond
+Reygersdal
+Rhine
+Riebeeck
+Riebeeckstrand
+Robben
+Rocklands
+Roeland
+RontreeA
+RontreeB
+Roodehek
+Royal Ascot
+Ruyterplaats
+Salt River Rail
+Sandown
+Saxonsea Clinic
+Saxonsea Primary
+Scott
+Sea Point
+Sea Point High
+Sea Point Pool
+Seal
+Section
+Sesame
+Shell
+Sherwood
+Skye Way
+Somerset Hospital
+Spencer
+St Bedes
+St James
+St Johns Wood
+St Michael's
+Stadium
+Starke
+Steve Biko
+Stirling
+Strand
+Sunset Beach
+Surrey
+Susan
+Table View
+The Castle
+The Glen
+Thibault
+Three Anchor Bay
+Tom Henshilwood
+Tramway
+Tritonia
+Tryall
+Tutu
+Upper Buitenkant
+Upper Kloof
+Upper Long
+Upper Loop
+Upper Mountain
+Upper Orange
+Upper Portswood
+Upper Roodebloem
+Upper Salt River
+Usasaza
+Valderrama
+Valley
+Van Riebeeck
+Viola
+Vrystaat
+Vuyani
+Waldeck
+Wandsworth
+Waratah
+Water's Edge
+Waterford
+Waterfront
+Waterfront Silo
+Waterview
+Waterville
+Welgemeend
+Wesfleur Park
+West Beach
+Wexford
+Whale Rock
+Wigtown
+Wood
+Wood Central
+Wood North
+Woodbridge
+Woodford
+Woodlands
+Woodstock
+Zoarvlei
+Zonnebloem

@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		757DA83C1A3CECFA0037995C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757DA83B1A3CECFA0037995C /* AppDelegate.swift */; };
+		757DA83E1A3CECFA0037995C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757DA83D1A3CECFA0037995C /* ViewController.swift */; };
+		757DA8411A3CECFA0037995C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757DA83F1A3CECFA0037995C /* Main.storyboard */; };
+		757DA8431A3CECFA0037995C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757DA8421A3CECFA0037995C /* Images.xcassets */; };
+		757DA8461A3CECFA0037995C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 757DA8441A3CECFA0037995C /* LaunchScreen.xib */; };
+		757DA8521A3CECFA0037995C /* Cricket_ChroniclesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757DA8511A3CECFA0037995C /* Cricket_ChroniclesTests.swift */; };
+		757DA85D1A3CF4240037995C /* MainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 757DA85C1A3CF4240037995C /* MainMenu.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		757DA84C1A3CECFA0037995C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 757DA82E1A3CECFA0037995C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757DA8351A3CECFA0037995C;
+			remoteInfo = "Cricket Chronicles";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		757DA8361A3CECFA0037995C /* Cricket Chronicles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cricket Chronicles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		757DA83A1A3CECFA0037995C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		757DA83B1A3CECFA0037995C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		757DA83D1A3CECFA0037995C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		757DA8401A3CECFA0037995C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		757DA8421A3CECFA0037995C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		757DA8451A3CECFA0037995C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		757DA84B1A3CECFA0037995C /* Cricket ChroniclesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cricket ChroniclesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		757DA8501A3CECFA0037995C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		757DA8511A3CECFA0037995C /* Cricket_ChroniclesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cricket_ChroniclesTests.swift; sourceTree = "<group>"; };
+		757DA85C1A3CF4240037995C /* MainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MainMenu.png; path = Mockups/MainMenu.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		757DA8331A3CECFA0037995C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757DA8481A3CECFA0037995C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		757DA82D1A3CECF90037995C = {
+			isa = PBXGroup;
+			children = (
+				757DA8381A3CECFA0037995C /* Cricket Chronicles */,
+				757DA84E1A3CECFA0037995C /* Cricket ChroniclesTests */,
+				757DA8371A3CECFA0037995C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		757DA8371A3CECFA0037995C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				757DA8361A3CECFA0037995C /* Cricket Chronicles.app */,
+				757DA84B1A3CECFA0037995C /* Cricket ChroniclesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		757DA8381A3CECFA0037995C /* Cricket Chronicles */ = {
+			isa = PBXGroup;
+			children = (
+				757DA85B1A3CF3D70037995C /* Images */,
+				757DA83B1A3CECFA0037995C /* AppDelegate.swift */,
+				757DA83D1A3CECFA0037995C /* ViewController.swift */,
+				757DA83F1A3CECFA0037995C /* Main.storyboard */,
+				757DA8421A3CECFA0037995C /* Images.xcassets */,
+				757DA8441A3CECFA0037995C /* LaunchScreen.xib */,
+				757DA8391A3CECFA0037995C /* Supporting Files */,
+			);
+			path = "Cricket Chronicles";
+			sourceTree = "<group>";
+		};
+		757DA8391A3CECFA0037995C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				757DA83A1A3CECFA0037995C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		757DA84E1A3CECFA0037995C /* Cricket ChroniclesTests */ = {
+			isa = PBXGroup;
+			children = (
+				757DA8511A3CECFA0037995C /* Cricket_ChroniclesTests.swift */,
+				757DA84F1A3CECFA0037995C /* Supporting Files */,
+			);
+			path = "Cricket ChroniclesTests";
+			sourceTree = "<group>";
+		};
+		757DA84F1A3CECFA0037995C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				757DA8501A3CECFA0037995C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		757DA85B1A3CF3D70037995C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				757DA85C1A3CF4240037995C /* MainMenu.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		757DA8351A3CECFA0037995C /* Cricket Chronicles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757DA8551A3CECFA0037995C /* Build configuration list for PBXNativeTarget "Cricket Chronicles" */;
+			buildPhases = (
+				757DA8321A3CECFA0037995C /* Sources */,
+				757DA8331A3CECFA0037995C /* Frameworks */,
+				757DA8341A3CECFA0037995C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cricket Chronicles";
+			productName = "Cricket Chronicles";
+			productReference = 757DA8361A3CECFA0037995C /* Cricket Chronicles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		757DA84A1A3CECFA0037995C /* Cricket ChroniclesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757DA8581A3CECFA0037995C /* Build configuration list for PBXNativeTarget "Cricket ChroniclesTests" */;
+			buildPhases = (
+				757DA8471A3CECFA0037995C /* Sources */,
+				757DA8481A3CECFA0037995C /* Frameworks */,
+				757DA8491A3CECFA0037995C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				757DA84D1A3CECFA0037995C /* PBXTargetDependency */,
+			);
+			name = "Cricket ChroniclesTests";
+			productName = "Cricket ChroniclesTests";
+			productReference = 757DA84B1A3CECFA0037995C /* Cricket ChroniclesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		757DA82E1A3CECFA0037995C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Byron Coetsee";
+				TargetAttributes = {
+					757DA8351A3CECFA0037995C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					757DA84A1A3CECFA0037995C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 757DA8351A3CECFA0037995C;
+					};
+				};
+			};
+			buildConfigurationList = 757DA8311A3CECFA0037995C /* Build configuration list for PBXProject "Cricket Chronicles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 757DA82D1A3CECF90037995C;
+			productRefGroup = 757DA8371A3CECFA0037995C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				757DA8351A3CECFA0037995C /* Cricket Chronicles */,
+				757DA84A1A3CECFA0037995C /* Cricket ChroniclesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		757DA8341A3CECFA0037995C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757DA8411A3CECFA0037995C /* Main.storyboard in Resources */,
+				757DA85D1A3CF4240037995C /* MainMenu.png in Resources */,
+				757DA8461A3CECFA0037995C /* LaunchScreen.xib in Resources */,
+				757DA8431A3CECFA0037995C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757DA8491A3CECFA0037995C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		757DA8321A3CECFA0037995C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757DA83E1A3CECFA0037995C /* ViewController.swift in Sources */,
+				757DA83C1A3CECFA0037995C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757DA8471A3CECFA0037995C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757DA8521A3CECFA0037995C /* Cricket_ChroniclesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		757DA84D1A3CECFA0037995C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757DA8351A3CECFA0037995C /* Cricket Chronicles */;
+			targetProxy = 757DA84C1A3CECFA0037995C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		757DA83F1A3CECFA0037995C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				757DA8401A3CECFA0037995C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		757DA8441A3CECFA0037995C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				757DA8451A3CECFA0037995C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		757DA8531A3CECFA0037995C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		757DA8541A3CECFA0037995C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		757DA8561A3CECFA0037995C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Cricket Chronicles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		757DA8571A3CECFA0037995C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Cricket Chronicles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		757DA8591A3CECFA0037995C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cricket ChroniclesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cricket Chronicles.app/Cricket Chronicles";
+			};
+			name = Debug;
+		};
+		757DA85A1A3CECFA0037995C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cricket ChroniclesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cricket Chronicles.app/Cricket Chronicles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		757DA8311A3CECFA0037995C /* Build configuration list for PBXProject "Cricket Chronicles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757DA8531A3CECFA0037995C /* Debug */,
+				757DA8541A3CECFA0037995C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		757DA8551A3CECFA0037995C /* Build configuration list for PBXNativeTarget "Cricket Chronicles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757DA8561A3CECFA0037995C /* Debug */,
+				757DA8571A3CECFA0037995C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		757DA8581A3CECFA0037995C /* Build configuration list for PBXNativeTarget "Cricket ChroniclesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757DA8591A3CECFA0037995C /* Debug */,
+				757DA85A1A3CECFA0037995C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 757DA82E1A3CECFA0037995C /* Project object */;
+}

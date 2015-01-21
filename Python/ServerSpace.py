@@ -3,6 +3,7 @@
 
 import pxssh
 import sys
+import os
 
 save_path = os.path.dirname(os.path.realpath(__file__))
 output = open(save_path+'/Server_Space.txt', 'w')

@@ -1,23 +1,23 @@
 import urllib2
 import json
-import binascii
-import os
-
-# print '3a2cc3492d234e773aa7db5f18819d1a0acb93de1e90cca4abd4473ab1c2d6sb'
-# 3becb8fd26642ffe79c61599ed3fb9f61e9118163b43305be797b6a9d9272a4b
 
 
-def main():
-	key = binascii.b2a_hex(os.urandom(32))
-	#try:
-	data = urllib2.urlopen('https://coinbase.com/api/v1/account/balance?api_key=bf674af1ff938d50d84cc6394036f05b407a536b9405e6f8b8b2c3472c383ccd')
-	dictionary = json.load(data)
+day = 0
+data = urllib2.urlopen('https://api.forecast.io/forecast/a5e6b097fa6e7b40ee7f51e78512930d/-33.9350,18.5200?units=si')
+dictionary = json.load(data)
 
-	btc = float(dictionary['amount'])
+print dictionary['daily']['data'][day]
 
-	print btc #+ '\n SUCCESS ON KEY ' + key + '-----------------------------------------'
-#except:
-	#print 'fail ' + key
+print ''
 
-if __name__ == '__main__':
-	main()
+print dictionary['daily']['data'][day]['summary']
+print dictionary['daily']['data'][day]['temperatureMax']
+
+
+
+# [greeting : "hello", goodbye : "bye"]
+
+["constania" : "22.000,13.0000", "claremont" : "33.0000,43.00000"]
+
+
+

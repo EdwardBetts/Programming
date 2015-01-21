@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7525C2601A0902CE008D9EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7525C25F1A0902CE008D9EBB /* AppDelegate.swift */; };
+		7525C2621A0902CE008D9EBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7525C2611A0902CE008D9EBB /* ViewController.swift */; };
+		7525C2651A0902CE008D9EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7525C2631A0902CE008D9EBB /* Main.storyboard */; };
+		7525C2671A0902CE008D9EBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7525C2661A0902CE008D9EBB /* Images.xcassets */; };
+		7525C26A1A0902CE008D9EBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7525C2681A0902CE008D9EBB /* LaunchScreen.xib */; };
+		7525C2761A0902CE008D9EBB /* TidalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7525C2751A0902CE008D9EBB /* TidalTests.swift */; };
+		7525C2861A0903FD008D9EBB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7525C2851A0903FD008D9EBB /* NotificationCenter.framework */; };
+		7525C28B1A0903FD008D9EBB /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7525C28A1A0903FD008D9EBB /* TodayViewController.swift */; };
+		7525C28D1A0903FD008D9EBB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7525C28C1A0903FD008D9EBB /* MainInterface.storyboard */; };
+		7525C2901A0903FD008D9EBB /* Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7525C2831A0903FD008D9EBB /* Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		75DF1FA51A0A703F004A9646 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF1FA41A0A703F004A9646 /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7525C2701A0902CE008D9EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7525C2521A0902CE008D9EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7525C2591A0902CE008D9EBB;
+			remoteInfo = Tidal;
+		};
+		7525C28E1A0903FD008D9EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7525C2521A0902CE008D9EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7525C2821A0903FD008D9EBB;
+			remoteInfo = Widget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7525C2941A0903FD008D9EBB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7525C2901A0903FD008D9EBB /* Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7525C25A1A0902CE008D9EBB /* Tidal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tidal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7525C25E1A0902CE008D9EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7525C25F1A0902CE008D9EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7525C2611A0902CE008D9EBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7525C2641A0902CE008D9EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7525C2661A0902CE008D9EBB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7525C2691A0902CE008D9EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7525C26F1A0902CE008D9EBB /* TidalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TidalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7525C2741A0902CE008D9EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7525C2751A0902CE008D9EBB /* TidalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalTests.swift; sourceTree = "<group>"; };
+		7525C2831A0903FD008D9EBB /* Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7525C2851A0903FD008D9EBB /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		7525C2891A0903FD008D9EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7525C28A1A0903FD008D9EBB /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		7525C28C1A0903FD008D9EBB /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		7525C2951A0904EA008D9EBB /* Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Widget.entitlements; sourceTree = "<group>"; };
+		7525C2961A09052B008D9EBB /* Tidal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Tidal.entitlements; sourceTree = "<group>"; };
+		75DF1FA41A0A703F004A9646 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7525C2571A0902CE008D9EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7525C26C1A0902CE008D9EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7525C2801A0903FD008D9EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7525C2861A0903FD008D9EBB /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7525C2511A0902CE008D9EBB = {
+			isa = PBXGroup;
+			children = (
+				7525C25C1A0902CE008D9EBB /* Tidal */,
+				7525C2721A0902CE008D9EBB /* TidalTests */,
+				7525C2871A0903FD008D9EBB /* Widget */,
+				7525C2841A0903FD008D9EBB /* Frameworks */,
+				7525C25B1A0902CE008D9EBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7525C25B1A0902CE008D9EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7525C25A1A0902CE008D9EBB /* Tidal.app */,
+				7525C26F1A0902CE008D9EBB /* TidalTests.xctest */,
+				7525C2831A0903FD008D9EBB /* Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7525C25C1A0902CE008D9EBB /* Tidal */ = {
+			isa = PBXGroup;
+			children = (
+				7525C2961A09052B008D9EBB /* Tidal.entitlements */,
+				7525C25F1A0902CE008D9EBB /* AppDelegate.swift */,
+				7525C2611A0902CE008D9EBB /* ViewController.swift */,
+				7525C2631A0902CE008D9EBB /* Main.storyboard */,
+				7525C2661A0902CE008D9EBB /* Images.xcassets */,
+				7525C2681A0902CE008D9EBB /* LaunchScreen.xib */,
+				7525C25D1A0902CE008D9EBB /* Supporting Files */,
+			);
+			path = Tidal;
+			sourceTree = "<group>";
+		};
+		7525C25D1A0902CE008D9EBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7525C25E1A0902CE008D9EBB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7525C2721A0902CE008D9EBB /* TidalTests */ = {
+			isa = PBXGroup;
+			children = (
+				7525C2751A0902CE008D9EBB /* TidalTests.swift */,
+				7525C2731A0902CE008D9EBB /* Supporting Files */,
+			);
+			path = TidalTests;
+			sourceTree = "<group>";
+		};
+		7525C2731A0902CE008D9EBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7525C2741A0902CE008D9EBB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7525C2841A0903FD008D9EBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7525C2851A0903FD008D9EBB /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7525C2871A0903FD008D9EBB /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				7525C2951A0904EA008D9EBB /* Widget.entitlements */,
+				7525C28A1A0903FD008D9EBB /* TodayViewController.swift */,
+				7525C28C1A0903FD008D9EBB /* MainInterface.storyboard */,
+				7525C2881A0903FD008D9EBB /* Supporting Files */,
+				75DF1FA41A0A703F004A9646 /* SwiftyJSON.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		7525C2881A0903FD008D9EBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7525C2891A0903FD008D9EBB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7525C2591A0902CE008D9EBB /* Tidal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7525C2791A0902CE008D9EBB /* Build configuration list for PBXNativeTarget "Tidal" */;
+			buildPhases = (
+				7525C2561A0902CE008D9EBB /* Sources */,
+				7525C2571A0902CE008D9EBB /* Frameworks */,
+				7525C2581A0902CE008D9EBB /* Resources */,
+				7525C2941A0903FD008D9EBB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7525C28F1A0903FD008D9EBB /* PBXTargetDependency */,
+			);
+			name = Tidal;
+			productName = Tidal;
+			productReference = 7525C25A1A0902CE008D9EBB /* Tidal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7525C26E1A0902CE008D9EBB /* TidalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7525C27C1A0902CE008D9EBB /* Build configuration list for PBXNativeTarget "TidalTests" */;
+			buildPhases = (
+				7525C26B1A0902CE008D9EBB /* Sources */,
+				7525C26C1A0902CE008D9EBB /* Frameworks */,
+				7525C26D1A0902CE008D9EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7525C2711A0902CE008D9EBB /* PBXTargetDependency */,
+			);
+			name = TidalTests;
+			productName = TidalTests;
+			productReference = 7525C26F1A0902CE008D9EBB /* TidalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7525C2821A0903FD008D9EBB /* Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7525C2911A0903FD008D9EBB /* Build configuration list for PBXNativeTarget "Widget" */;
+			buildPhases = (
+				7525C27F1A0903FD008D9EBB /* Sources */,
+				7525C2801A0903FD008D9EBB /* Frameworks */,
+				7525C2811A0903FD008D9EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Widget;
+			productName = Widget;
+			productReference = 7525C2831A0903FD008D9EBB /* Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7525C2521A0902CE008D9EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Byron Coetsee";
+				TargetAttributes = {
+					7525C2591A0902CE008D9EBB = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 7A6ZJ37YMY;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					7525C26E1A0902CE008D9EBB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 7525C2591A0902CE008D9EBB;
+					};
+					7525C2821A0903FD008D9EBB = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 7A6ZJ37YMY;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7525C2551A0902CE008D9EBB /* Build configuration list for PBXProject "Tidal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7525C2511A0902CE008D9EBB;
+			productRefGroup = 7525C25B1A0902CE008D9EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7525C2591A0902CE008D9EBB /* Tidal */,
+				7525C26E1A0902CE008D9EBB /* TidalTests */,
+				7525C2821A0903FD008D9EBB /* Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7525C2581A0902CE008D9EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7525C2651A0902CE008D9EBB /* Main.storyboard in Resources */,
+				7525C26A1A0902CE008D9EBB /* LaunchScreen.xib in Resources */,
+				7525C2671A0902CE008D9EBB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7525C26D1A0902CE008D9EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7525C2811A0903FD008D9EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7525C28D1A0903FD008D9EBB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7525C2561A0902CE008D9EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7525C2621A0902CE008D9EBB /* ViewController.swift in Sources */,
+				7525C2601A0902CE008D9EBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7525C26B1A0902CE008D9EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7525C2761A0902CE008D9EBB /* TidalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7525C27F1A0903FD008D9EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7525C28B1A0903FD008D9EBB /* TodayViewController.swift in Sources */,
+				75DF1FA51A0A703F004A9646 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7525C2711A0902CE008D9EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7525C2591A0902CE008D9EBB /* Tidal */;
+			targetProxy = 7525C2701A0902CE008D9EBB /* PBXContainerItemProxy */;
+		};
+		7525C28F1A0903FD008D9EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7525C2821A0903FD008D9EBB /* Widget */;
+			targetProxy = 7525C28E1A0903FD008D9EBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7525C2631A0902CE008D9EBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7525C2641A0902CE008D9EBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7525C2681A0902CE008D9EBB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7525C2691A0902CE008D9EBB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7525C2771A0902CE008D9EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7525C2781A0902CE008D9EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7525C27A1A0902CE008D9EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tidal/Tidal.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Tidal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7525C27B1A0902CE008D9EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tidal/Tidal.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Tidal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		7525C27D1A0902CE008D9EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TidalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tidal.app/Tidal";
+			};
+			name = Debug;
+		};
+		7525C27E1A0902CE008D9EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TidalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tidal.app/Tidal";
+			};
+			name = Release;
+		};
+		7525C2921A0903FD008D9EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7525C2931A0903FD008D9EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7525C2551A0902CE008D9EBB /* Build configuration list for PBXProject "Tidal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7525C2771A0902CE008D9EBB /* Debug */,
+				7525C2781A0902CE008D9EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7525C2791A0902CE008D9EBB /* Build configuration list for PBXNativeTarget "Tidal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7525C27A1A0902CE008D9EBB /* Debug */,
+				7525C27B1A0902CE008D9EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7525C27C1A0902CE008D9EBB /* Build configuration list for PBXNativeTarget "TidalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7525C27D1A0902CE008D9EBB /* Debug */,
+				7525C27E1A0902CE008D9EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7525C2911A0903FD008D9EBB /* Build configuration list for PBXNativeTarget "Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7525C2921A0903FD008D9EBB /* Debug */,
+				7525C2931A0903FD008D9EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7525C2521A0902CE008D9EBB /* Project object */;
+}

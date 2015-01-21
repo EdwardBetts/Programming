@@ -1,0 +1,213 @@
+
+/* Class = "IBUILabel"; text = "Station "; ObjectID = "0rb-fi-lCr"; */
+"0rb-fi-lCr.text" = "Station ";
+
+/* Class = "IBUIButton"; normalTitle = "Stop Information"; ObjectID = "18B-jc-t8x"; */
+"18B-jc-t8x.normalTitle" = "Stop Information";
+
+/* Class = "IBUILabel"; text = "Select \"To\" and \"From\" stations above"; ObjectID = "3fY-fI-euG"; */
+"3fY-fI-euG.text" = "Select \"To\" and \"From\" stations above";
+
+/* Class = "IBUILabel"; text = "There are no more busses today"; ObjectID = "5wP-vC-SuR"; */
+"5wP-vC-SuR.text" = "There are no more busses today";
+
+/* Class = "IBUILabel"; text = "Board at Addreley"; ObjectID = "62W-mh-24u"; */
+"62W-mh-24u.text" = "Board at Addreley";
+
+/* Class = "IBUILabel"; text = "100km"; ObjectID = "6Qn-JO-CDw"; */
+"6Qn-JO-CDw.text" = "100km";
+
+/* Class = "IBUILabel"; text = "6 Stops"; ObjectID = "A4i-f1-6r3"; */
+"A4i-f1-6r3.text" = "6 Stops";
+
+/* Class = "IBUIButton"; normalTitle = "Done"; ObjectID = "Axm-gY-ygZ"; */
+"Axm-gY-ygZ.normalTitle" = "Done";
+
+/* Class = "IBUILabel"; text = "To Destination"; ObjectID = "BwD-k7-wTd"; */
+"BwD-k7-wTd.text" = "To Destination";
+
+/* Class = "IBUILabel"; text = "⇋"; ObjectID = "Cx1-pU-m9U"; */
+"Cx1-pU-m9U.text" = "⇋";
+
+/* Class = "IBUIButton"; normalTitle = "Alerts"; ObjectID = "CxR-iq-cRY"; */
+"CxR-iq-cRY.normalTitle" = "Alerts";
+
+/* Class = "IBUIButton"; normalTitle = "Alerts"; ObjectID = "DJO-2C-kz9"; */
+"DJO-2C-kz9.normalTitle" = "Alerts";
+
+/* Class = "IBUIViewController"; title = "RoutesViewController"; ObjectID = "EDa-0U-qSY"; */
+"EDa-0U-qSY.title" = "RoutesViewController";
+
+/* Class = "IBUIButton"; normalTitle = "Stop Information"; ObjectID = "Ejr-bW-Yc2"; */
+"Ejr-bW-Yc2.normalTitle" = "Stop Information";
+
+/* Class = "IBUIButton"; normalTitle = "Interactive Map"; ObjectID = "F1X-A2-vLZ"; */
+"F1X-A2-vLZ.normalTitle" = "Interactive Map";
+
+/* Class = "IBUILabel"; text = "12 min"; ObjectID = "Fgb-RU-V1U"; */
+"Fgb-RU-V1U.text" = "12 min";
+
+/* Class = "IBUILabel"; text = "108"; ObjectID = "GPB-O6-X5i"; */
+"GPB-O6-X5i.text" = "108";
+
+/* Class = "IBUILabel"; text = "Stop Name"; ObjectID = "Gac-Cd-3it"; */
+"Gac-Cd-3it.text" = "Stop Name";
+
+/* Class = "IBUILabel"; text = "Right station"; ObjectID = "H9a-Ok-3e2"; */
+"H9a-Ok-3e2.text" = "Right station";
+
+/* Class = "IBUILabel"; text = "Stop Name"; ObjectID = "I9u-RY-zuU"; */
+"I9u-RY-zuU.text" = "Stop Name";
+
+/* Class = "IBUILabel"; text = "Stop Name"; ObjectID = "J5D-BV-liG"; */
+"J5D-BV-liG.text" = "Stop Name";
+
+/* Class = "IBUIButton"; normalTitle = "Try Again"; ObjectID = "JLR-8b-zwM"; */
+"JLR-8b-zwM.normalTitle" = "Try Again";
+
+/* Class = "IBUILabel"; text = "Bus"; ObjectID = "JN4-eK-ieY"; */
+"JN4-eK-ieY.text" = "Bus";
+
+/* Class = "IBUILabel"; text = "30 mins"; ObjectID = "JaP-fQ-e5L"; */
+"JaP-fQ-e5L.text" = "30 mins";
+
+/* Class = "IBUIButton"; highlightedTitle = "☗"; ObjectID = "LCM-q1-egH"; */
+"LCM-q1-egH.highlightedTitle" = "☗";
+
+/* Class = "IBUIButton"; normalTitle = "☖"; ObjectID = "LCM-q1-egH"; */
+"LCM-q1-egH.normalTitle" = "☖";
+
+/* Class = "IBUIButton"; selectedTitle = "☗"; ObjectID = "LCM-q1-egH"; */
+"LCM-q1-egH.selectedTitle" = "☗";
+
+/* Class = "IBUIBarButtonItem"; title = "⇌"; ObjectID = "M4f-s2-wrW"; */
+"M4f-s2-wrW.title" = "⇌";
+
+/* Class = "IBUIViewController"; title = "Route Information"; ObjectID = "NIO-Si-k3y"; */
+"NIO-Si-k3y.title" = "Route Information";
+
+/* Class = "IBUILabel"; text = "2h30"; ObjectID = "O0r-9m-PUd"; */
+"O0r-9m-PUd.text" = "2h30";
+
+/* Class = "IBUILabel"; text = "Route number"; ObjectID = "Ped-vs-Enc"; */
+"Ped-vs-Enc.text" = "Route number";
+
+/* Class = "IBUILabel"; text = "Notices"; ObjectID = "PiY-2e-tNl"; */
+"PiY-2e-tNl.text" = "Notices";
+
+/* Class = "IBUILabel"; text = "20 mins"; ObjectID = "QEa-AX-PBB"; */
+"QEa-AX-PBB.text" = "20 mins";
+
+/* Class = "IBUILabel"; text = "➟"; ObjectID = "RLb-0J-oOw"; */
+"RLb-0J-oOw.text" = "➟";
+
+/* Class = "IBUILabel"; text = "Monday"; ObjectID = "Rbr-Oh-kdL"; */
+"Rbr-Oh-kdL.text" = "Monday";
+
+/* Class = "IBUILabel"; text = "TimeRem"; ObjectID = "Tzg-Wt-vAw"; */
+"Tzg-Wt-vAw.text" = "TimeRem";
+
+/* Class = "IBUIViewController"; title = "Route Planner"; ObjectID = "WYX-dt-hiT"; */
+"WYX-dt-hiT.title" = "Route Planner";
+
+/* Class = "IBUILabel"; text = "108 - 109"; ObjectID = "Zh2-BK-BDA"; */
+"Zh2-BK-BDA.text" = "108 - 109";
+
+/* Class = "IBUILabel"; text = "Sets how long before the bus arrives you must be notified"; ObjectID = "ZtR-0F-zoa"; */
+"ZtR-0F-zoa.text" = "Sets how long before the bus arrives you must be notified";
+
+/* Class = "IBUIButton"; normalTitle = "Interactive Map"; ObjectID = "a2s-xH-hrz"; */
+"a2s-xH-hrz.normalTitle" = "Interactive Map";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "aA3-OZ-gtO"; */
+"aA3-OZ-gtO.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Update"; ObjectID = "aXV-PQ-2sA"; */
+"aXV-PQ-2sA.normalTitle" = "Update";
+
+/* Class = "IBUITextView"; text = "Loading..."; ObjectID = "ahT-hc-Sgu"; */
+"ahT-hc-Sgu.text" = "Loading...";
+
+/* Class = "IBUILabel"; text = "No more alerts"; ObjectID = "d1o-1e-N3z"; */
+"d1o-1e-N3z.text" = "No more alerts";
+
+/* Class = "IBUILabel"; text = "RouteNumber"; ObjectID = "eXP-CA-Sln"; */
+"eXP-CA-Sln.text" = "RouteNumber";
+
+/* Class = "IBUIButton"; normalTitle = "Route Planner"; ObjectID = "euT-5I-BA6"; */
+"euT-5I-BA6.normalTitle" = "Route Planner";
+
+/* Class = "IBUILabel"; text = "Station"; ObjectID = "feA-gD-uTa"; */
+"feA-gD-uTa.text" = "Station";
+
+/* Class = "IBUILabel"; text = "Stop Name"; ObjectID = "kJ4-QJ-T8f"; */
+"kJ4-QJ-T8f.text" = "Stop Name";
+
+/* Class = "IBUILabel"; text = "Left station"; ObjectID = "lDa-rf-1UH"; */
+"lDa-rf-1UH.text" = "Left station";
+
+/* Class = "IBUIButton"; normalTitle = "To"; ObjectID = "oNx-Ll-GAQ"; */
+"oNx-Ll-GAQ.normalTitle" = "To";
+
+/* Class = "IBUIButton"; normalTitle = "Route Planner"; ObjectID = "pFf-CG-nEn"; */
+"pFf-CG-nEn.normalTitle" = "Route Planner";
+
+/* Class = "IBUILabel"; text = "Loading"; ObjectID = "pxa-3h-8nc"; */
+"pxa-3h-8nc.text" = "Loading";
+
+/* Class = "IBUIButton"; normalTitle = "Done"; ObjectID = "qaU-gB-I94"; */
+"qaU-gB-I94.normalTitle" = "Done";
+
+/* Class = "IBUILabel"; text = "Stop Name"; ObjectID = "rdO-nn-vrp"; */
+"rdO-nn-vrp.text" = "Stop Name";
+
+/* Class = "IBUILabel"; text = "Bus alerts"; ObjectID = "soX-yE-zVU"; */
+"soX-yE-zVU.text" = "Bus alerts";
+
+/* Class = "IBUIButton"; normalTitle = "Clear All"; ObjectID = "t1F-ah-FU9"; */
+"t1F-ah-FU9.normalTitle" = "Clear All";
+
+/* Class = "IBUILabel"; text = "60 mins"; ObjectID = "tfd-jZ-V2w"; */
+"tfd-jZ-V2w.text" = "60 mins";
+
+/* Class = "IBUILabel"; text = "Welcome to the unofficial MyCiti app.\nDesigned and developed by"; ObjectID = "udN-Qe-OhY"; */
+"udN-Qe-OhY.text" = "Welcome to the unofficial MyCiti app.\nDesigned and developed by";
+
+/* Class = "IBUIViewController"; title = "Map"; ObjectID = "vXZ-lx-hvc"; */
+"vXZ-lx-hvc.title" = "Map";
+
+/* Class = "IBUIButton"; normalTitle = "Byron Coetsee"; ObjectID = "ve4-MD-nL2"; */
+"ve4-MD-nL2.normalTitle" = "Byron Coetsee";
+
+/* Class = "IBUILabel"; text = "Changing to T01"; ObjectID = "vo6-9o-xHn"; */
+"vo6-9o-xHn.text" = "Changing to T01";
+
+/* Class = "IBUIViewController"; title = "directionsToClosestStop"; ObjectID = "voy-Z4-jKh"; */
+"voy-Z4-jKh.title" = "directionsToClosestStop";
+
+/* Class = "IBUILabel"; text = "Time of bus"; ObjectID = "wiN-WL-VHu"; */
+"wiN-WL-VHu.text" = "Time of bus";
+
+/* Class = "IBUIButton"; normalTitle = "Times"; ObjectID = "wjD-QR-qi3"; */
+"wjD-QR-qi3.normalTitle" = "Times";
+
+/* Class = "IBUILabel"; text = "108"; ObjectID = "xJJ-XM-OER"; */
+"xJJ-XM-OER.text" = "108";
+
+/* Class = "IBUILabel"; text = "100m"; ObjectID = "xfZ-YJ-4IK"; */
+"xfZ-YJ-4IK.text" = "100m";
+
+/* Class = "IBUIBarButtonItem"; title = "⇋"; ObjectID = "y1O-h5-UMA"; */
+"y1O-h5-UMA.title" = "⇋";
+
+/* Class = "IBUIButton"; normalTitle = "Report an issue"; ObjectID = "yDB-yl-Um4"; */
+"yDB-yl-Um4.normalTitle" = "Report an issue";
+
+/* Class = "IBUIButton"; normalTitle = "From"; ObjectID = "yV5-En-acq"; */
+"yV5-En-acq.normalTitle" = "From";
+
+/* Class = "IBUIViewController"; title = "Times"; ObjectID = "yqa-DE-F4t"; */
+"yqa-DE-F4t.title" = "Times";
+
+/* Class = "IBUILabel"; text = "Civic Centre"; ObjectID = "zDk-FI-9VR"; */
+"zDk-FI-9VR.text" = "Civic Centre";

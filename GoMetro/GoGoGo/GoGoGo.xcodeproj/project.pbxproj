@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75A28B3C1A6D134F00577343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A28B3B1A6D134F00577343 /* AppDelegate.swift */; };
+		75A28B3E1A6D134F00577343 /* JourneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A28B3D1A6D134F00577343 /* JourneyViewController.swift */; };
+		75A28B401A6D134F00577343 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A28B3F1A6D134F00577343 /* MessagesViewController.swift */; };
+		75A28B431A6D134F00577343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A28B411A6D134F00577343 /* Main.storyboard */; };
+		75A28B451A6D134F00577343 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A28B441A6D134F00577343 /* Images.xcassets */; };
+		75A28B481A6D134F00577343 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A28B461A6D134F00577343 /* LaunchScreen.xib */; };
+		75A28B541A6D134F00577343 /* GoGoGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A28B531A6D134F00577343 /* GoGoGoTests.swift */; };
+		75A28B5E1A6D14D400577343 /* GoGoGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A28B5D1A6D14D400577343 /* GoGoGoViewController.swift */; };
+		75A28B601A6D14E700577343 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A28B5F1A6D14E700577343 /* NotificationsViewController.swift */; };
+		75A28B621A6D14F400577343 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A28B611A6D14F400577343 /* MeViewController.swift */; };
+		75CD06751A6D7BD5006EFB12 /* MessagesDiscoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD06741A6D7BD5006EFB12 /* MessagesDiscoverTableViewCell.swift */; };
+		75CD06771A6D7BEB006EFB12 /* MessagesChatInviteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD06761A6D7BEB006EFB12 /* MessagesChatInviteTableViewCell.swift */; };
+		75CD06791A6D7BFE006EFB12 /* MessagesChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD06781A6D7BFE006EFB12 /* MessagesChatTableViewCell.swift */; };
+		75CD067B1A6E454B006EFB12 /* JourneySwipeDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD067A1A6E454B006EFB12 /* JourneySwipeDiscoverViewController.swift */; };
+		75CD067D1A6E477C006EFB12 /* JourneySwipePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD067C1A6E477C006EFB12 /* JourneySwipePageViewController.swift */; };
+		75CD067F1A6E4AC3006EFB12 /* JourneySwipeRecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD067E1A6E4AC3006EFB12 /* JourneySwipeRecentViewController.swift */; };
+		75CD06811A6E6BAB006EFB12 /* RecentTripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD06801A6E6BAB006EFB12 /* RecentTripTableViewCell.swift */; };
+		75CD06831A6E97E3006EFB12 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD06821A6E97E3006EFB12 /* Global.swift */; };
+		75CD06871A6F7587006EFB12 /* AgenciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD06861A6F7587006EFB12 /* AgenciesViewController.swift */; };
+		75CD06891A6F7EB5006EFB12 /* AgencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD06881A6F7EB5006EFB12 /* AgencyTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75A28B4E1A6D134F00577343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A28B2E1A6D134E00577343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A28B351A6D134E00577343;
+			remoteInfo = GoGoGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75A28B361A6D134F00577343 /* GoGoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoGoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A28B3A1A6D134F00577343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A28B3B1A6D134F00577343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75A28B3D1A6D134F00577343 /* JourneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyViewController.swift; sourceTree = "<group>"; };
+		75A28B3F1A6D134F00577343 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		75A28B421A6D134F00577343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75A28B441A6D134F00577343 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75A28B471A6D134F00577343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		75A28B4D1A6D134F00577343 /* GoGoGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoGoGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A28B521A6D134F00577343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A28B531A6D134F00577343 /* GoGoGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoGoGoTests.swift; sourceTree = "<group>"; };
+		75A28B5D1A6D14D400577343 /* GoGoGoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoGoGoViewController.swift; sourceTree = "<group>"; };
+		75A28B5F1A6D14E700577343 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		75A28B611A6D14F400577343 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		75CD06741A6D7BD5006EFB12 /* MessagesDiscoverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesDiscoverTableViewCell.swift; sourceTree = "<group>"; };
+		75CD06761A6D7BEB006EFB12 /* MessagesChatInviteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesChatInviteTableViewCell.swift; sourceTree = "<group>"; };
+		75CD06781A6D7BFE006EFB12 /* MessagesChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesChatTableViewCell.swift; sourceTree = "<group>"; };
+		75CD067A1A6E454B006EFB12 /* JourneySwipeDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneySwipeDiscoverViewController.swift; sourceTree = "<group>"; };
+		75CD067C1A6E477C006EFB12 /* JourneySwipePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneySwipePageViewController.swift; sourceTree = "<group>"; };
+		75CD067E1A6E4AC3006EFB12 /* JourneySwipeRecentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneySwipeRecentViewController.swift; sourceTree = "<group>"; };
+		75CD06801A6E6BAB006EFB12 /* RecentTripTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentTripTableViewCell.swift; sourceTree = "<group>"; };
+		75CD06821A6E97E3006EFB12 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		75CD06861A6F7587006EFB12 /* AgenciesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgenciesViewController.swift; sourceTree = "<group>"; };
+		75CD06881A6F7EB5006EFB12 /* AgencyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgencyTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75A28B331A6D134E00577343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A28B4A1A6D134F00577343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75A28B2D1A6D134E00577343 = {
+			isa = PBXGroup;
+			children = (
+				75A28B381A6D134F00577343 /* GoGoGo */,
+				75A28B501A6D134F00577343 /* GoGoGoTests */,
+				75A28B371A6D134F00577343 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75A28B371A6D134F00577343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75A28B361A6D134F00577343 /* GoGoGo.app */,
+				75A28B4D1A6D134F00577343 /* GoGoGoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75A28B381A6D134F00577343 /* GoGoGo */ = {
+			isa = PBXGroup;
+			children = (
+				75A28B3B1A6D134F00577343 /* AppDelegate.swift */,
+				75A28B3D1A6D134F00577343 /* JourneyViewController.swift */,
+				75CD067C1A6E477C006EFB12 /* JourneySwipePageViewController.swift */,
+				75CD067A1A6E454B006EFB12 /* JourneySwipeDiscoverViewController.swift */,
+				75CD067E1A6E4AC3006EFB12 /* JourneySwipeRecentViewController.swift */,
+				75CD06861A6F7587006EFB12 /* AgenciesViewController.swift */,
+				75CD06881A6F7EB5006EFB12 /* AgencyTableViewCell.swift */,
+				75CD06801A6E6BAB006EFB12 /* RecentTripTableViewCell.swift */,
+				75A28B3F1A6D134F00577343 /* MessagesViewController.swift */,
+				75CD06741A6D7BD5006EFB12 /* MessagesDiscoverTableViewCell.swift */,
+				75CD06761A6D7BEB006EFB12 /* MessagesChatInviteTableViewCell.swift */,
+				75CD06781A6D7BFE006EFB12 /* MessagesChatTableViewCell.swift */,
+				75A28B5D1A6D14D400577343 /* GoGoGoViewController.swift */,
+				75A28B5F1A6D14E700577343 /* NotificationsViewController.swift */,
+				75A28B611A6D14F400577343 /* MeViewController.swift */,
+				75A28B411A6D134F00577343 /* Main.storyboard */,
+				75A28B441A6D134F00577343 /* Images.xcassets */,
+				75A28B461A6D134F00577343 /* LaunchScreen.xib */,
+				75A28B391A6D134F00577343 /* Supporting Files */,
+				75CD06821A6E97E3006EFB12 /* Global.swift */,
+			);
+			path = GoGoGo;
+			sourceTree = "<group>";
+		};
+		75A28B391A6D134F00577343 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75A28B3A1A6D134F00577343 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75A28B501A6D134F00577343 /* GoGoGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				75A28B531A6D134F00577343 /* GoGoGoTests.swift */,
+				75A28B511A6D134F00577343 /* Supporting Files */,
+			);
+			path = GoGoGoTests;
+			sourceTree = "<group>";
+		};
+		75A28B511A6D134F00577343 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75A28B521A6D134F00577343 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75A28B351A6D134E00577343 /* GoGoGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A28B571A6D134F00577343 /* Build configuration list for PBXNativeTarget "GoGoGo" */;
+			buildPhases = (
+				75A28B321A6D134E00577343 /* Sources */,
+				75A28B331A6D134E00577343 /* Frameworks */,
+				75A28B341A6D134E00577343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoGoGo;
+			productName = GoGoGo;
+			productReference = 75A28B361A6D134F00577343 /* GoGoGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75A28B4C1A6D134F00577343 /* GoGoGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A28B5A1A6D134F00577343 /* Build configuration list for PBXNativeTarget "GoGoGoTests" */;
+			buildPhases = (
+				75A28B491A6D134F00577343 /* Sources */,
+				75A28B4A1A6D134F00577343 /* Frameworks */,
+				75A28B4B1A6D134F00577343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A28B4F1A6D134F00577343 /* PBXTargetDependency */,
+			);
+			name = GoGoGoTests;
+			productName = GoGoGoTests;
+			productReference = 75A28B4D1A6D134F00577343 /* GoGoGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75A28B2E1A6D134E00577343 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "GoMetro (Pty) Ltd";
+				TargetAttributes = {
+					75A28B351A6D134E00577343 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 7A6ZJ37YMY;
+					};
+					75A28B4C1A6D134F00577343 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 75A28B351A6D134E00577343;
+					};
+				};
+			};
+			buildConfigurationList = 75A28B311A6D134E00577343 /* Build configuration list for PBXProject "GoGoGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75A28B2D1A6D134E00577343;
+			productRefGroup = 75A28B371A6D134F00577343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75A28B351A6D134E00577343 /* GoGoGo */,
+				75A28B4C1A6D134F00577343 /* GoGoGoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75A28B341A6D134E00577343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A28B431A6D134F00577343 /* Main.storyboard in Resources */,
+				75A28B481A6D134F00577343 /* LaunchScreen.xib in Resources */,
+				75A28B451A6D134F00577343 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A28B4B1A6D134F00577343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75A28B321A6D134E00577343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CD06871A6F7587006EFB12 /* AgenciesViewController.swift in Sources */,
+				75CD06811A6E6BAB006EFB12 /* RecentTripTableViewCell.swift in Sources */,
+				75CD06751A6D7BD5006EFB12 /* MessagesDiscoverTableViewCell.swift in Sources */,
+				75A28B621A6D14F400577343 /* MeViewController.swift in Sources */,
+				75CD067D1A6E477C006EFB12 /* JourneySwipePageViewController.swift in Sources */,
+				75CD06771A6D7BEB006EFB12 /* MessagesChatInviteTableViewCell.swift in Sources */,
+				75CD067B1A6E454B006EFB12 /* JourneySwipeDiscoverViewController.swift in Sources */,
+				75CD06831A6E97E3006EFB12 /* Global.swift in Sources */,
+				75CD06791A6D7BFE006EFB12 /* MessagesChatTableViewCell.swift in Sources */,
+				75A28B601A6D14E700577343 /* NotificationsViewController.swift in Sources */,
+				75A28B401A6D134F00577343 /* MessagesViewController.swift in Sources */,
+				75A28B3C1A6D134F00577343 /* AppDelegate.swift in Sources */,
+				75CD067F1A6E4AC3006EFB12 /* JourneySwipeRecentViewController.swift in Sources */,
+				75A28B5E1A6D14D400577343 /* GoGoGoViewController.swift in Sources */,
+				75CD06891A6F7EB5006EFB12 /* AgencyTableViewCell.swift in Sources */,
+				75A28B3E1A6D134F00577343 /* JourneyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A28B491A6D134F00577343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A28B541A6D134F00577343 /* GoGoGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75A28B4F1A6D134F00577343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A28B351A6D134E00577343 /* GoGoGo */;
+			targetProxy = 75A28B4E1A6D134F00577343 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75A28B411A6D134F00577343 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A28B421A6D134F00577343 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75A28B461A6D134F00577343 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A28B471A6D134F00577343 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75A28B551A6D134F00577343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75A28B561A6D134F00577343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75A28B581A6D134F00577343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoGoGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75A28B591A6D134F00577343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoGoGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75A28B5B1A6D134F00577343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoGoGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoGoGo.app/GoGoGo";
+			};
+			name = Debug;
+		};
+		75A28B5C1A6D134F00577343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoGoGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoGoGo.app/GoGoGo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75A28B311A6D134E00577343 /* Build configuration list for PBXProject "GoGoGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A28B551A6D134F00577343 /* Debug */,
+				75A28B561A6D134F00577343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A28B571A6D134F00577343 /* Build configuration list for PBXNativeTarget "GoGoGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A28B581A6D134F00577343 /* Debug */,
+				75A28B591A6D134F00577343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A28B5A1A6D134F00577343 /* Build configuration list for PBXNativeTarget "GoGoGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A28B5B1A6D134F00577343 /* Debug */,
+				75A28B5C1A6D134F00577343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75A28B2E1A6D134E00577343 /* Project object */;
+}

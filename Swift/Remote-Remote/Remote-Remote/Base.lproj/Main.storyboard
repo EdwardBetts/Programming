@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Remote_Remote" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EdH-Me-tdK">
+                                <rect key="frame" x="164" y="90" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="JKw-Hy-YOL"/>
+                                    <constraint firstAttribute="height" constant="30" id="sLc-Iz-1UO"/>
+                                </constraints>
+                                <state key="normal" title="Gate">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Gate:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bA7-ip-SeX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f66-tf-Xsx">
+                                <rect key="frame" x="22" y="213" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="58p-zl-KJe"/>
+                                    <constraint firstAttribute="width" constant="46" id="Yhz-kA-PvC"/>
+                                </constraints>
+                                <state key="normal" title="Toggle">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ToggleBottomLeft:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2kr-f1-BZv"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="IP" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kuJ-2h-DFw">
+                                <rect key="frame" x="60" y="28" width="255" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9TZ-qz-2Lu"/>
+                                    <constraint firstAttribute="width" secondItem="kuJ-2h-DFw" secondAttribute="height" multiplier="17:2" id="mT2-aj-zNr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="mT2-aj-zNr"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NvH-M1-1GF">
+                                <rect key="frame" x="249" y="251" width="110" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1uq-CA-r52"/>
+                                    <constraint firstAttribute="width" constant="110" id="H3L-SV-Lqn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNk-bv-hCZ">
+                                <rect key="frame" x="151" y="151" width="74" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="hN4-th-nG9"/>
+                                    <constraint firstAttribute="height" constant="30" id="lbE-6y-naT"/>
+                                </constraints>
+                                <state key="normal" title="Garage">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Garage:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0BA-L0-x2N"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ob8-SC-atf">
+                                <rect key="frame" x="22" y="251" width="110" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="45Z-Dc-6e8"/>
+                                    <constraint firstAttribute="width" constant="110" id="VEp-lx-goE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nMr-fT-jBk">
+                                <rect key="frame" x="313" y="213" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="hFr-PO-W0d"/>
+                                    <constraint firstAttribute="height" constant="30" id="jSa-b5-H7U"/>
+                                </constraints>
+                                <state key="normal" title="Toggle">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ToggleBottomRight:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="28f-kA-9QW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="EdH-Me-tdK" secondAttribute="centerX" id="470-8j-86E"/>
+                            <constraint firstItem="kuJ-2h-DFw" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="5ia-yk-CFs"/>
+                            <constraint firstItem="ob8-SC-atf" firstAttribute="top" secondItem="f66-tf-Xsx" secondAttribute="bottom" constant="8" id="7X3-Be-bEm"/>
+                            <constraint firstAttribute="trailing" secondItem="NvH-M1-1GF" secondAttribute="trailing" constant="16" id="BU4-02-sRm"/>
+                            <constraint firstAttribute="centerX" secondItem="NNk-bv-hCZ" secondAttribute="centerX" id="ETo-8m-iYg"/>
+                            <constraint firstAttribute="trailing" secondItem="nMr-fT-jBk" secondAttribute="trailing" constant="16" id="Mdt-HC-KxJ"/>
+                            <constraint firstItem="NvH-M1-1GF" firstAttribute="top" secondItem="nMr-fT-jBk" secondAttribute="bottom" constant="8" id="QDQ-xz-Gua"/>
+                            <constraint firstItem="kuJ-2h-DFw" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="44" id="RnQ-et-Nk3"/>
+                            <constraint firstItem="f66-tf-Xsx" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="213" id="SBX-ea-bjq"/>
+                            <constraint firstItem="f66-tf-Xsx" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="22" id="Yn4-RV-fwv"/>
+                            <constraint firstItem="ob8-SC-atf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="22" id="a0S-4w-v8J"/>
+                            <constraint firstAttribute="centerX" secondItem="kuJ-2h-DFw" secondAttribute="centerX" id="iah-DX-YIN"/>
+                            <constraint firstItem="NNk-bv-hCZ" firstAttribute="top" secondItem="EdH-Me-tdK" secondAttribute="bottom" constant="31" id="lFM-6B-0gw"/>
+                            <constraint firstItem="nMr-fT-jBk" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="213" id="mYd-Sk-NsO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kuJ-2h-DFw" secondAttribute="trailing" constant="44" id="u2y-tU-zZx"/>
+                            <constraint firstItem="EdH-Me-tdK" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="90" id="yeM-zm-aiP"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="kco-yk-lud" appends="YES" id="t3B-1N-Kkk"/>
+                        </connections>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="txtIP" destination="kuJ-2h-DFw" id="v79-7N-bF3"/>
+                        <outlet property="txtToggleBottomLeft" destination="ob8-SC-atf" id="0tn-Fu-2pW"/>
+                        <outlet property="txtToggleBottomRight" destination="NvH-M1-1GF" id="Q6s-kX-5zp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="kco-yk-lud">
+                    <connections>
+                        <action selector="hideKeyboard:" destination="vXZ-lx-hvc" id="q4y-xO-YWG"/>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="upk-th-T4f"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>
