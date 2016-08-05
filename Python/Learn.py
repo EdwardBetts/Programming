@@ -2,7 +2,7 @@ routes = ['101']#, '102', '103', '104', '105', '106', '107', '108', '109', '113'
 stopsWithDistances = {}
 currentRoute = []
 
-def countBackards(currentStop):
+def countBackwards(currentStop):
 	position = currentRoute.index(currentStop)
 	return position
 
@@ -16,6 +16,6 @@ for route in routes:
 	currentRoute = lines[0].split(';') # Fetches the stop names for that route and puts them into array
 
 	for stop in currentRoute:
-		print countBackards(stop)
+		print countBackwards(stop)
 
 	
